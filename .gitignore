@@ -1,0 +1,59 @@
+# -----------------------
+# IntelliJ IDEA
+# -----------------------
+.idea/
+*.iml
+*.iws
+out/
+
+# -----------------------
+# OS
+# -----------------------
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# -----------------------
+# Logs and temp files
+# -----------------------
+*.log
+*.tmp
+*.temp
+
+# -----------------------
+# Build directories
+# -----------------------
+/build/
+/target/
+/dist/
+
+/*.class
+/*.jar
+/*.war
+/*.ear
+
+# -----------------------
+# Node.js (если есть)
+# -----------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# -----------------------
+# Python (если есть)
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
